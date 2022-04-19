@@ -1,10 +1,11 @@
 
 # Knowledge Representation for High-level Planning in Cloth Manipulation Tasks
 
-Institut de Robòtica i Informàtica Industrial, CSIC-UPC. Author Irene Garcia-Camacho (igarcia@iri.upc.edu). Repository used in the article to generate domain models in PDDL given a CloM Graph of a cloth manipulation task.
+Repository used in the article of the same title submitted to ICAPS workshops on Knowledge Engineering for Planning and Scheduling (KEPS22) to generate domain models in PDDL of a cloth manipulation task.
+Institut de Robòtica i Informàtica Industrial, CSIC-UPC. Author Irene Garcia-Camacho (igarcia@iri.upc.edu).
 
 
-##Execution
+## Execution
 
 To generate the domain and problem files, make sure you have the CloM Graph data (file Folding_CloM_Graph.csv) and run the python script as:
 
@@ -20,13 +21,13 @@ To obtain the result of the problem run:
 
 ``ff -o domain_FOLDING.pddl -f problem_FOLDING.pddl -s 0``
 
-##Dependencies
+## Dependencies
 
 -Python3
     - Graphviz ``sudo apt install python3-graphviz``
 
 -Fast-Forward solver [1]
 
-##References
+## References
 
 [1] https://fai.cs.uni-saarland.de/hoffmann/metric-ff.html (Download version 2.1)
